@@ -3,6 +3,7 @@ const Product = require("../models/product");
 const multer = require("multer");
 const Firm = require("../models/Firm");
 const { error } = require("console");
+ 
 
 // MULTER STORAGE
 const storage = multer.diskStorage({
